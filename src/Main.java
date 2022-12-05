@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Superclass mySuperclass = new Superclass();
+        Superclass mySubClass = new SubClass();
+        mySuperclass.method();
+        mySubClass.method();
     }
 }
